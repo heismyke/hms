@@ -18,15 +18,18 @@ const Appointment = () => {
     <div className="relative w-full h-screen flex items-center justify-center">
       {/* Video Background */}
       <video 
-        autoPlay 
-        loop 
-        muted 
-        playsInline 
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <source src="/videos/walkway.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      autoPlay 
+  loop 
+  muted 
+  playsInline 
+  className="absolute inset-0 w-full h-full object-cover z-0"
+>
+  <source 
+    src="https://res.cloudinary.com/dg2ujxltx/video/upload/v1/goza2cvw1cyxqyz3fwef.mp4" 
+    type="video/mp4" 
+  />
+  Your browser does not support the video tag.
+</video>
 
       {/* Dark Overlay for Readability */}
       <div className="absolute inset-0 bg-black/50 z-10"></div>
