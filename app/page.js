@@ -2,17 +2,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { SplashScreen } from './components/SplashScreen'
 
 const Home = () => {
-  const imageSrc = 'https://images.pexels.com/photos/6303604/pexels-photo-6303604.jpeg'
 
   return (
-    <SplashScreen>
       <div className="min-h-screen relative bg-[#706D54] flex items-center justify-center">
         {/* Background Image */}
         <div className="absolute inset-0">
-          <Image src={imageSrc} alt="ZeeCare Medical Institute" fill className="object-cover" />
+          <Image src="/images/doc.jpeg" alt="ZeeCare Medical Institute" fill className="object-cover" />
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
@@ -36,7 +33,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </SplashScreen>
   )
 }
 

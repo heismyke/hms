@@ -230,7 +230,7 @@ const AppointmentForm = () => {
           <button
             type="button"
             onClick={handleSubmit}
-            className="bg-green-500 text-white px-4 py-2 rounded"
+            className="bg-gray-300 text-[#706D54] px-4 py-2 rounded"
           >
             Submit
           </button>
